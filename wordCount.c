@@ -1,5 +1,4 @@
 #include <stdio.h>
-//Contar cuantas letras tiene una palabra
 int count(char word[]){ 
  int c = 0;
  for(int i=0; word[i] != '\0'; i++){
@@ -7,7 +6,6 @@ int count(char word[]){
  }    
  return c;
 }    
-
 int main(){    
  char w[100];
  printf("Write your word : ");
